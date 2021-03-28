@@ -1,0 +1,22 @@
+.author {
+  color: #ffe4cf;
+  font-family: "Roboto Mono", monospace;
+  position: flex;
+  text-transform: capitalize;
+  white-space: nowrap;
+
+  @media screen and (max-width: 768px) {
+    font-size: 0.8rem;
+    margin-top: 1rem !important;
+  }
+
+  .author-link {
+    color: #ffe4cf;
+    cursor: pointer;
+
+    &:hover {
+      color: darken(#ffe4cf, 20%);
+      text-decoration: none;
+    }
+  }
+}
